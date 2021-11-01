@@ -1,4 +1,164 @@
+@font-face {
+    src: url(fonts/Yeyey-1pK2.otf);
+    font-family: "Yeyey";
+}
+
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nova Mono', monospace;
 }
+
+.header {
+    height: 350px;
+    background: #1F2937;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+    /* display: flex; */
+} 
+
+.top {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: "Yeyey";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+
+/* .greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #1F2937;
+    height: 270px;
+    width: auto;
+    /* font-size: 36px; */
+}
+
+.quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: #E5E7EB;
+    height: 270px;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.ActionBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 250px;
+    width: 300px; */
+
+    margin: 50px;
+    padding: 30px 50px;
+
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #3882F6; 
+    border-radius: 7px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #1F2937;
+    color: #E5E7EB;
+    height: 50px;
+    
+}
+
+.block2 {
+    flex-direction: column;
+    width: 70%;
+    height: 60%;
+    align-self: center;
+
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.greetingText {
+    width: 25%;
+}
+
+.AnimeGirls {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.callToAction
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.logo {
+    width: 50px;
+}
+
+.tsundere, .yandere, .kuudere, .dandere {
+    height: 150px;
+}
+
+/*note for the future: 
+It's better to repeat code but pack it in order, thean to try to spare lines
+but leaving everything in chaos, because it's easier to optimize organised
+code than to control chaotic but optimised code*/
