@@ -22,9 +22,9 @@ body {
 } 
 
 .top {
-    margin: 10px;
+    /* margin: 10px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 h1{
@@ -74,6 +74,13 @@ ul {
 
     background-color: #E5E7EB;
     height: 270px;
+    padding: 15px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 h6 {
@@ -101,12 +108,15 @@ h6 {
 
 .footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
     align-items: center;
+    justify-content: center;
 
     background: #1F2937;
     color: #E5E7EB;
-    height: 50px;
+    height: 60px;
+
     
 }
 
@@ -122,11 +132,12 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .greetingText {
     width: 25%;
+    gap: 10px;
 }
 
 .AnimeGirls {
@@ -158,7 +169,56 @@ h6 {
     height: 150px;
 }
 
+h4  {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+button {
+    padding: 3px 20px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
 /*note for the future: 
 It's better to repeat code but pack it in order, thean to try to spare lines
 but leaving everything in chaos, because it's easier to optimize organised
 code than to control chaotic but optimised code*/
+
+.greetingButton {
+    border-style: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 5px;
+    border: 4px solid #3882F6;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/*body had to contain three elements: two pieces on sides and the main elemet in the middle. The middle element
+would contain all of the site's main content, while the sides could be used for ads or some gimmics. However the 
+problem of background colours would still remain
+besides the side elements would look weird */
+
+/*Alternatively I could've just give all elements the same amount of padding*/
+
+
